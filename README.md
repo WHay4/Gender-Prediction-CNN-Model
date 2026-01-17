@@ -6,6 +6,7 @@ The repo is organized around two main scripts:
 
 - **`train_images.py`** — trains the model and saves weights (`image_gender.weights.h5`)
 - **`main.py`** — runs inference over an image directory and writes output XML files
+  - To run the main inference pipeline, ensure that 'image_gender.weights.h5' is created, and then run 'python main.py -i /absolute/path/to/input_data -o /absolute/path/to/output_dir -t images'.
 
 Technologies used in this project so far:
 - TensorFlow
